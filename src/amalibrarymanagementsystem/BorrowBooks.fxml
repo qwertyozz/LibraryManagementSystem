@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="870.0" prefWidth="1470.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="amalibrarymanagementsystem.BorrowBooksController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="CRIMSON" height="35.0" layoutY="-3.0" stroke="BLACK" strokeType="INSIDE" width="1470.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="CRIMSON" height="35.0" layoutY="839.0" stroke="BLACK" strokeType="INSIDE" width="1470.0" />
+      <Label layoutX="43.0" layoutY="80.0" text="BORROW BOOK">
+         <font>
+            <Font name="System Bold" size="50.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="85.0" fitWidth="85.0" layoutX="440.0" layoutY="74.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/book.png" />
+         </image>
+      </ImageView>
+      <JFXTextField fx:id="TBorrower" focusColor="RED" labelFloat="true" layoutX="43.0" layoutY="204.0" prefHeight="45.0" prefWidth="676.0" promptText="Name Of Borrower" unFocusColor="RED" />
+      <JFXTextField fx:id="TUsn" focusColor="RED" labelFloat="true" layoutX="43.0" layoutY="294.0" prefHeight="45.0" prefWidth="676.0" promptText="USN" unFocusColor="RED" />
+      <JFXTextField fx:id="TBookBorrowed" focusColor="RED" labelFloat="true" layoutX="43.0" layoutY="386.0" prefHeight="45.0" prefWidth="676.0" promptText="Title Of Book Borrowed" unFocusColor="RED" />
+      <JFXTextField fx:id="TAuthor" focusColor="RED" labelFloat="true" layoutX="43.0" layoutY="474.0" prefHeight="45.0" prefWidth="676.0" promptText="Author" unFocusColor="RED" />
+      <JFXTextField fx:id="TContact" focusColor="RED" labelFloat="true" layoutX="43.0" layoutY="563.0" prefHeight="45.0" prefWidth="676.0" promptText="Contact Number" unFocusColor="RED" />
+      <JFXTextField fx:id="TCourse" focusColor="RED" labelFloat="true" layoutX="43.0" layoutY="657.0" prefHeight="45.0" prefWidth="676.0" promptText="Course or Strand" unFocusColor="RED" />
+      <JFXButton fx:id="Bborrow" buttonType="RAISED" layoutX="43.0" layoutY="741.0" onAction="#BorrowBook" prefHeight="45.0" prefWidth="149.0" style="-fx-background-color: #DC143C; -fx-background-radius: 25;" text="BORROW" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="Breturn" buttonType="RAISED" layoutX="217.0" layoutY="741.0" onAction="#ReturnBook" prefHeight="45.0" prefWidth="149.0" style="-fx-background-color: #DC143C; -fx-background-radius: 25;" text="RETURN" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="Bclear" buttonType="RAISED" layoutX="390.0" layoutY="741.0" onAction="#clearAll" prefHeight="45.0" prefWidth="149.0" style="-fx-background-color: #DC143C; -fx-background-radius: 25;" text="CLEAR" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="Bback" buttonType="RAISED" layoutX="570.0" layoutY="741.0" onAction="#BackToMain" prefHeight="45.0" prefWidth="149.0" style="-fx-background-color: #DC143C; -fx-background-radius: 25;" text="BACK" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </JFXButton>
+      <Label fx:id="Lstatus" layoutX="58.0" layoutY="812.0" prefHeight="21.0" prefWidth="661.0" text="STATUS" textAlignment="CENTER" />
+      <TextArea fx:id="TABooksBorrowed" layoutX="741.0" layoutY="25.0" prefHeight="818.0" prefWidth="709.0" />
+      <JFXButton fx:id="LoadData" buttonType="RAISED" layoutX="1333.0" layoutY="781.0" onAction="#Refresh" style="-fx-background-color: #DC143C;" text="Reload" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

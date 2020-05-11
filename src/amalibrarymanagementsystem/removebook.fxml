@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="760.0" prefWidth="849.0" style="-fx-background-color: DC143C;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="amalibrarymanagementsystem.RemovebookController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="730.0" layoutX="17.0" layoutY="15.0" stroke="BLACK" strokeType="INSIDE" width="816.0" />
+      <Label layoutX="86.0" layoutY="74.0" text="REMOVE BOOK">
+         <font>
+            <Font name="System Bold" size="50.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="66.0" fitWidth="80.0" layoutX="466.0" layoutY="78.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/close-button.png" />
+         </image>
+      </ImageView>
+      <JFXTextField fx:id="Ttitle" focusColor="RED" labelFloat="true" layoutX="87.0" layoutY="217.0" prefHeight="48.0" prefWidth="676.0" promptText="Title of the Book" unFocusColor="RED" />
+      <JFXTextField fx:id="Tauthor" focusColor="RED" labelFloat="true" layoutX="87.0" layoutY="313.0" prefHeight="48.0" prefWidth="676.0" promptText="Author" unFocusColor="RED" />
+      <JFXTextField fx:id="Tpublisher" focusColor="RED" labelFloat="true" layoutX="87.0" layoutY="408.0" prefHeight="48.0" prefWidth="676.0" promptText="Publisher" unFocusColor="RED" />
+      <JFXTextField fx:id="Tyear" focusColor="RED" labelFloat="true" layoutX="87.0" layoutY="506.0" prefHeight="48.0" prefWidth="676.0" promptText="Year" unFocusColor="RED" />
+      <JFXButton fx:id="Bremove" buttonType="RAISED" layoutX="355.0" layoutY="622.0" onAction="#BremoveClicked" prefHeight="49.0" prefWidth="140.0" style="-fx-background-color: #DC143C; -fx-background-radius: 25;" text="REMOVE" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="Bback" buttonType="RAISED" layoutX="553.0" layoutY="622.0" onAction="#BbackClicked" prefHeight="49.0" prefWidth="140.0" style="-fx-background-color: #DC143C; -fx-background-radius: 25;" text="BACK" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="Bclear" buttonType="RAISED" layoutX="156.0" layoutY="622.0" onAction="#BclearClicked" prefHeight="49.0" prefWidth="140.0" style="-fx-background-color: #DC143C; -fx-background-radius: 25;" text="CLEAR" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </JFXButton>
+      <Label fx:id="Lstatus" layoutX="87.0" layoutY="568.0" prefHeight="21.0" prefWidth="253.0" />
+   </children>
+</AnchorPane>
