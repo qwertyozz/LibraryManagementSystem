@@ -13,5 +13,5 @@
 
 # Future plans/update
 - Responsive UI
-- Centralized Database (using AWS RDS)
-- Complementary App (Android App)
+- Centralized Database (using Google's Firebase)
+- Complementary App (Android App) //In development
