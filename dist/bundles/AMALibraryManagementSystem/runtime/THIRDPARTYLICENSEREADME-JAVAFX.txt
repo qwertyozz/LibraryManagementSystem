@@ -49,15 +49,12 @@ commercial products, provided that all warranty or liability claims are
 assumed by the product vendor.
 
 ```
-## Mesa 3-D Graphics Library v5.0
+## Mesa 3-D Graphics Library v19.2.1
 
 ### Mesa License
+
 ```
-
-Mesa 3-D graphics library
-Version:  5.0
-
-Copyright (C) 1999-2002  Brian Paul   All Rights Reserved.
+Copyright (C) 1999-2007  Brian Paul   All Rights Reserved.
 
 Permission is hereby granted, free of charge, to any person obtaining a
 copy of this software and associated documentation files (the "Software"),
@@ -72,99 +69,128 @@ in all copies or substantial portions of the Software.
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
 OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL
-BRIAN PAUL BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN
-AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
-CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+Attention, Contributors
+
+When contributing to the Mesa project you must agree to the licensing terms
+of the component to which you're contributing.
+The following section lists the primary components of the Mesa distribution
+and their respective licenses.
+Mesa Component Licenses
+
+
+
+Component         Location               License
+------------------------------------------------------------------
+Main Mesa code    src/mesa/              MIT
+Device drivers    src/mesa/drivers/*     MIT, generally
+
+Gallium code      src/gallium/           MIT
+
+Ext headers       GL/glext.h             Khronos
+                  GL/glxext.h            Khronos
+                  GL/wglext.h            Khronos
+                  KHR/khrplatform.h      Khronos
+
+*****************************************************************************
+
+----
+include/GL/gl.h :
+
+
+ Mesa 3-D graphics library
+
+ Copyright (C) 1999-2006  Brian Paul   All Rights Reserved.
+ Copyright (C) 2009  VMware, Inc.  All Rights Reserved.
+
+ Permission is hereby granted, free of charge, to any person obtaining a
+ copy of this software and associated documentation files (the "Software"),
+ to deal in the Software without restriction, including without limitation
+ the rights to use, copy, modify, merge, publish, distribute, sublicense,
+ and/or sell copies of the Software, and to permit persons to whom the
+ Software is furnished to do so, subject to the following conditions:
+
+ The above copyright notice and this permission notice shall be included
+ in all copies or substantial portions of the Software.
+
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+ OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL
+ THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR
+ OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
+ ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+ OTHER DEALINGS IN THE SOFTWARE.
+
+ *****************************************************************************
+
+----
+include/GL/glext.h
+include/GL/glxext.h
+include/GL/wglxext.h :
+
+
+ Copyright (c) 2013 - 2018 The Khronos Group Inc.
+
+ Permission is hereby granted, free of charge, to any person obtaining a
+ copy of this software and/or associated documentation files (the
+ "Materials"), to deal in the Materials without restriction, including
+ without limitation the rights to use, copy, modify, merge, publish,
+ distribute, sublicense, and/or sell copies of the Materials, and to
+ permit persons to whom the Materials are furnished to do so, subject to
+ the following conditions:
+
+ The above copyright notice and this permission notice shall be included
+ in all copies or substantial portions of the Materials.
+
+ THE MATERIALS ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+ EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+ MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+ IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+ CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+ TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+ MATERIALS OR THE USE OR OTHER DEALINGS IN THE MATERIALS.
+
+ *****************************************************************************
+
+----
+include/KHR/khrplatform.h :
+
+ Copyright (c) 2008 - 2018 The Khronos Group Inc.
+
+ Permission is hereby granted, free of charge, to any person obtaining a
+ copy of this software and/or associated documentation files (the
+ "Materials"), to deal in the Materials without restriction, including
+ without limitation the rights to use, copy, modify, merge, publish,
+ distribute, sublicense, and/or sell copies of the Materials, and to
+ permit persons to whom the Materials are furnished to do so, subject to
+ the following conditions:
+
+ The above copyright notice and this permission notice shall be included
+ in all copies or substantial portions of the Materials.
+
+ THE MATERIALS ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+ EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+ MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+ IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+ CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+ TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+ MATERIALS OR THE USE OR OTHER DEALINGS IN THE MATERIALS.
+
+ *****************************************************************************
 
 ```
-## Khronos Group OpenGL Headers v4.6
-
-### Khronos Group License
-```
-
-Copyright (c) 2008-2018 The Khronos Group Inc.
-
-Permission is hereby granted, free of charge, to any person obtaining a
-copy of this software and/or associated documentation files (the
-"Materials"), to deal in the Materials without restriction, including
-without limitation the rights to use, copy, modify, merge, publish,
-distribute, sublicense, and/or sell copies of the Materials, and to
-permit persons to whom the Materials are furnished to do so, subject to
-the following conditions:
-
-The above copyright notice and this permission notice shall be included
-in all copies or substantial portions of the Materials.
-
-THE MATERIALS ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
-IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
-CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
-TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
-MATERIALS OR THE USE OR OTHER DEALINGS IN THE MATERIALS.
-
-```
-## Apple Computer: CoreAudio Utility Classes v2.0
-
-### Apple Computer CoreAudio Notice
-This software is present only on Mac OS X systems.
-
-### Apple Computer CoreAudio License
-```
-
-File:
-Abstract: Part of CoreAudio Utility Classes
-Version: 1.1
-
-Disclaimer: IMPORTANT: This Apple software is supplied to you by Apple
-Inc. ("Apple") in consideration of your agreement to the following
-terms, and your use, installation, modification or redistribution of
-this Apple software constitutes acceptance of these terms. If you do
-not agree with these terms, please do not use, install, modify or
-redistribute this Apple software.
-
-In consideration of your agreement to abide by the following terms, and
-subject to these terms, Apple grants you a personal, non-exclusive
-license, under Apple's copyrights in this original Apple software (the
-"Apple Software"), to use, reproduce, modify and redistribute the Apple
-Software, with or without modifications, in source and/or binary forms;
-provided that if you redistribute the Apple Software in its entirety and
-without modifications, you must retain this notice and the following
-text and disclaimers in all such redistributions of the Apple Software.
-Neither the name, trademarks, service marks or logos of Apple Inc. may
-be used to endorse or promote products derived from the Apple Software
-without specific prior written permission from Apple. Except as
-expressly stated in this notice, no other rights or licenses, express or
-implied, are granted by Apple herein, including but not limited to any
-patent rights that may be infringed by your derivative works or by other
-works in which the Apple Software may be incorporated.
-
-The Apple Software is provided by Apple on an "AS IS" basis. APPLE
-MAKES NO WARRANTIES, EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION
-THE IMPLIED WARRANTIES OF NON-INFRINGEMENT, MERCHANTABILITY AND FITNESS
-FOR A PARTICULAR PURPOSE, REGARDING THE APPLE SOFTWARE OR ITS USE AND
-OPERATION ALONE OR IN COMBINATION WITH YOUR PRODUCTS.
-
-IN NO EVENT SHALL APPLE BE LIABLE FOR ANY SPECIAL, INDIRECT, INCIDENTAL
-OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
-SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
-INTERRUPTION) ARISING IN ANY WAY OUT OF THE USE, REPRODUCTION,
-MODIFICATION AND/OR DISTRIBUTION OF THE APPLE SOFTWARE, HOWEVER CAUSED
-AND WHETHER UNDER THEORY OF CONTRACT, TORT (INCLUDING NEGLIGENCE),
-STRICT LIABILITY OR OTHERWISE, EVEN IF APPLE HAS BEEN ADVISED OF THE
-POSSIBILITY OF SUCH DAMAGE.
-
-Copyright (C) 2014 Apple Inc. All Rights Reserved.
-
-```
-## GNU Glib v2.58.2
+## GNU Glib v2.62.2
 
 ### Glib Notice
 ```
 
-You are receiving a copy of GNU Glib, Version: 2.58.2 in either source or
+You are receiving a copy of GNU Glib, Version: 2.62.2 in either source or
 object code in the JavaFX runtime or JavaFX SDK. The terms of the
-Oracle license do NOT apply to the GNU Glib, Version: 2.58.2; it is
+Oracle license do NOT apply to the GNU Glib, Version: 2.62.2; it is
 licensed under the following license, separately from the Oracle programs
 you receive. If you do not wish to install this library, you may delete
 this library:
@@ -175,11 +201,11 @@ this library:
    - On Windows systems: delete $(JAVA_HOME)\bin\glib-lite.dll
 
 A copy of the Oracle modified GNU Glib library source code is located
-in the following OpenJDK Mercurial repository:
+in the following OpenJDK git repository:
 
-   http://hg.openjdk.java.net/openjfx/jfx/rt
+   https://github.com/openjdk/jfx
 
-You can use Mercurial to clone the repository or you can browse the
+You can use git to clone the repository or you can browse the
 source using a web browser. The root directory of the GNU Glib source
 code is here:
 
@@ -695,14 +721,14 @@ necessary.  Here is a sample; alter the names:
 That's all there is to it!
 
 ```
-## GStreamer v1.14.4
+## GStreamer v1.16.1
 
 ### GStreamer Notice
 ```
 
-You are receiving a copy of GStreamer, Version: 1.14.4 in either source or
+You are receiving a copy of GStreamer, Version: 1.16.1 in either source or
 object code in the JavaFX runtime or JavaFX SDK. The terms of the
-Oracle license do NOT apply to the GStreamer, Version: 1.14.4; it is
+Oracle license do NOT apply to the GStreamer, Version: 1.16.1; it is
 licensed under the following license, separately from the Oracle programs
 you receive. If you do not wish to install this library, you may delete
 this library:
@@ -713,11 +739,11 @@ this library:
    - On Windows systems: delete $(JAVA_HOME)\bin\gstreamer-lite.dll
 
 A copy of the Oracle modified GStreamer library source code is located
-in the following OpenJDK Mercurial repository:
+in the following OpenJDK git repository:
 
-   http://hg.openjdk.java.net/openjfx/jfx/rt
+   https://github.com/openjdk/jfx
 
-You can use Mercurial to clone the repository or you can browse the
+You can use git to clone the repository or you can browse the
 source using a web browser. The root directory of the GStreamer source
 code is here:
 
@@ -784,7 +810,7 @@ modified by someone else and passed on, the recipients should know
 that what they have is not the original version, so that the original
 author's reputation will not be affected by problems that might be
 introduced by others.
-
+
   Finally, software patents pose a constant threat to the existence of
 any free program.  We wish to make sure that a company cannot
 effectively restrict the users of a free program by obtaining a
@@ -1259,15 +1285,15 @@ TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
 SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ```
-## IBM International Components for Unicode (ICU4C) v62.1
+## IBM International Components for Unicode (ICU4C) v64.2
 
 ### ICU License
 ```
 
 COPYRIGHT AND PERMISSION NOTICE (ICU 58 and later)
 
-Copyright © 1991-2018 Unicode, Inc. All rights reserved.
-Distributed under the Terms of Use in http://www.unicode.org/copyright.html.
+Copyright © 1991-2019 Unicode, Inc. All rights reserved.
+Distributed under the Terms of Use in https://www.unicode.org/copyright.html.
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of the Unicode data files and any associated documentation
@@ -1710,29 +1736,31 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 ```
-## xmlsoft.org: libxslt v1.1.32
+## xmlsoft.org: libxslt v1.1.34
 
 ### libxslt License
 ```
 
-Copyright (C) 1998-2012 Daniel Veillard.  All Rights Reserved.
+Licence for libxslt except libexslt
+----------------------------------------------------------------------
+ Copyright (C) 2001-2002 Daniel Veillard.  All Rights Reserved.
 
-Permission is hereby granted, free of charge, to any person obtaining a
-copy of this software and associated documentation files (the "Software"),
-to deal in the Software without restriction, including without limitation
-the rights to use, copy, modify, merge, publish, distribute, sublicense,
-and/or sell copies of the Software, and to permit persons to whom the
-Software is furnished to do so, subject to the following conditions:
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is fur-
+nished to do so, subject to the following conditions:
 
-The above copyright notice and this permission notice shall be included
-in all copies or substantial portions of the Software.
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
-OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL BLFS
-BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF
-CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
-SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FIT-
+NESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL THE
+DANIEL VEILLARD BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CON-
+NECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 Except as contained in this notice, the name of Daniel Veillard shall not
 be used in advertising or otherwise to promote the sale, use or other deal-
@@ -1768,7 +1796,7 @@ ings in this Software without prior written authorization from him.
 ----------------------------------------------------------------------
 
 ```
-## WebKit Open Source Project: WebKit v608.1
+## WebKit Open Source Project: WebKit v609.1
 
 ### WebKit Notice
 ```
@@ -1786,11 +1814,11 @@ this library:
    - On Windows systems: delete $(JAVA_HOME)\bin\jfxwebkit.dll
 
 A copy of the Oracle modified WebKit library source code is located
-in the following OpenJDK Mercurial repository:
+in the following OpenJDK git repository:
 
-   http://hg.openjdk.java.net/openjfx/jfx/rt
+   https://github.com/openjdk/jfx
 
-You can use Mercurial to clone the repository or you can browse the
+You can use git to clone the repository or you can browse the
 source using a web browser. The root directory of the WebKit source
 code is here:
 

@@ -12,47 +12,46 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="712.0" style="-fx-background-color: #ecf0f1;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="amalibrarymanagementsystem.FXMLDocumentController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="600.0" style="-fx-background-color: #ecf0f1;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="amalibrarymanagementsystem.FXMLDocumentController">
    <children>
-      <Label layoutX="306.0" layoutY="43.0" prefHeight="91.0" prefWidth="296.0" text="LIBRARY MANAGEMENT &#10;SYSTEM">
+      <Label layoutX="203.0" layoutY="29.0" prefHeight="91.0" prefWidth="296.0" text="LIBRARY MANAGEMENT &#10;SYSTEM">
          <font>
             <Font name="System Bold" size="24.0" />
          </font>
       </Label>
-      <JFXTextField fx:id="Tusername" focusColor="CRIMSON" labelFloat="true" layoutX="174.0" layoutY="190.0" prefHeight="44.0" prefWidth="398.0" promptText="Username" unFocusColor="RED">
+      <JFXTextField fx:id="Tusername" focusColor="CRIMSON" labelFloat="true" layoutX="114.0" layoutY="165.0" prefHeight="44.0" prefWidth="382.0" promptText="Username" unFocusColor="RED">
          <font>
             <Font size="18.0" />
          </font></JFXTextField>
-      <JFXPasswordField fx:id="Tpassword" focusColor="CRIMSON" labelFloat="true" layoutX="171.0" layoutY="275.0" prefHeight="44.0" prefWidth="398.0" promptText="Password" unFocusColor="RED">
+      <JFXPasswordField fx:id="Tpassword" focusColor="CRIMSON" labelFloat="true" layoutX="114.0" layoutY="243.0" prefHeight="44.0" prefWidth="382.0" promptText="Password" unFocusColor="RED">
          <font>
             <Font size="18.0" />
          </font>
       </JFXPasswordField>
-      <JFXButton fx:id="Blogin" buttonType="RAISED" layoutX="199.0" layoutY="391.0" onAction="#Bloginclicked" prefHeight="44.0" prefWidth="120.0" style="-fx-background-radius: 25; -fx-background-color: #DC143C;" text="LOGIN" textFill="WHITE">
+      <JFXButton fx:id="Blogin" buttonType="RAISED" layoutX="101.0" layoutY="359.0" onAction="#Bloginclicked" prefHeight="44.0" prefWidth="398.0" style="-fx-background-radius: 10; -fx-background-color: #DC143C;" text="LOGIN" textFill="WHITE">
          <font>
             <Font name="System Bold" size="15.0" />
          </font></JFXButton>
-      <JFXButton fx:id="Bexit" buttonType="RAISED" layoutX="388.0" layoutY="391.0" onAction="#Bexitclicked" prefHeight="44.0" prefWidth="120.0" style="-fx-background-radius: 25; -fx-background-color: #DC143C;" text="EXIT" textFill="WHITE">
+      <JFXButton fx:id="Bexit" buttonType="RAISED" layoutX="101.0" layoutY="416.0" onAction="#Bexitclicked" prefHeight="44.0" prefWidth="398.0" style="-fx-background-radius: 10; -fx-background-color: #DC143C;" text="EXIT" textFill="WHITE">
          <font>
             <Font name="System Bold" size="15.0" />
          </font>
       </JFXButton>
-      <ImageView fitHeight="36.0" fitWidth="54.0" layoutX="120.0" layoutY="194.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="44.0" fitWidth="45.0" layoutX="71.0" layoutY="243.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../Images/avatar.png" />
+            <Image url="@../Images/DesignImages/icons8-privacy-100.png" />
          </image>
       </ImageView>
-      <ImageView fitHeight="36.0" fitWidth="54.0" layoutX="120.0" layoutY="279.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="44.0" fitWidth="44.0" layoutX="71.0" layoutY="165.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../Images/locked-padlock.png" />
+            <Image url="@../Images/DesignImages/icons8-user-male-64.png" />
          </image>
       </ImageView>
-      <Label fx:id="Lstatus" layoutX="250.0" layoutY="435.0" prefHeight="36.0" prefWidth="319.0" text="     " textAlignment="CENTER" textFill="RED" />
-      <ImageView fitHeight="105.0" fitWidth="214.0" layoutX="85.0" layoutY="36.0" pickOnBounds="true" preserveRatio="true">
+      <Label fx:id="Lstatus" layoutX="109.0" layoutY="306.0" opacity="0.47" prefHeight="36.0" prefWidth="382.0" text="...............................................LOGIN STATUS..............................................................." textFill="RED" />
+      <ImageView fitHeight="105.0" fitWidth="214.0" layoutX="87.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../Images/AMA-Logo-removebg-preview.png" />
+            <Image url="@../Images/DesignImages/books.png" />
          </image>
       </ImageView>
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="CRIMSON" height="29.0" layoutY="472.0" stroke="BLACK" strokeType="INSIDE" width="712.0" />
    </children>
 </AnchorPane>

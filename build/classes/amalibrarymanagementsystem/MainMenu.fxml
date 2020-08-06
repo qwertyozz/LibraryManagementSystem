@@ -10,77 +10,77 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane id="AnchorPane" prefHeight="966.0" prefWidth="729.0" style="-fx-background-color: DC143C;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="amalibrarymanagementsystem.MainMenuController">
+<AnchorPane id="AnchorPane" prefHeight="583.0" prefWidth="922.0" style="-fx-background-color: DC143C;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="amalibrarymanagementsystem.MainMenuController">
    <children>
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="933.0" layoutX="16.0" layoutY="17.0" stroke="BLACK" strokeType="INSIDE" width="690.0" />
-      <Label layoutX="365.0" layoutY="68.0" text="LIBRARY MANAGEMENT&#10;SYSTEM">
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="545.0" layoutX="18.0" layoutY="18.0" stroke="BLACK" strokeType="INSIDE" width="887.0" />
+      <Label layoutX="100.0" layoutY="74.0" prefHeight="57.0" prefWidth="594.0" text="Library Management System">
          <font>
-            <Font name="System Bold" size="25.0" />
+            <Font name="SansSerif Bold" size="40.0" />
          </font>
       </Label>
-      <JFXButton fx:id="Bsearch" buttonType="RAISED" layoutX="36.0" layoutY="188.0" onAction="#BsearchBookClicked" prefHeight="110.0" prefWidth="650.0" style="-fx-background-color: #DC143C; -fx-background-radius: 15;" text="    SEARCH FOR BOOK" textFill="WHITE">
+      <JFXButton fx:id="Bsearch" buttonType="RAISED" layoutX="50.0" layoutY="190.0" onAction="#BsearchBookClicked" prefHeight="100.0" prefWidth="400.0" style="-fx-background-color: #DC143C; -fx-background-radius: 15;" text="Search for book" textAlignment="CENTER" textFill="WHITE">
          <font>
             <Font name="System Bold" size="20.0" />
          </font>
       </JFXButton>
-      <JFXButton fx:id="Baddbook" buttonType="RAISED" layoutX="36.0" layoutY="314.0" onAction="#BaddnewbookClicked" prefHeight="110.0" prefWidth="650.0" style="-fx-background-color: #DC143C; -fx-background-radius: 15;" text="   ADD NEW BOOK" textFill="WHITE">
+      <JFXButton fx:id="Baddbook" buttonType="RAISED" layoutX="50.0" layoutY="314.0" onAction="#BaddnewbookClicked" prefHeight="100.0" prefWidth="400.0" style="-fx-background-color: #DC143C; -fx-background-radius: 15;" text="Add new book" textAlignment="CENTER" textFill="WHITE">
          <font>
             <Font name="System Bold" size="20.0" />
          </font>
       </JFXButton>
-      <JFXButton fx:id="Bborrowbook" buttonType="RAISED" layoutX="36.0" layoutY="566.0" onAction="#BorrowABookClicked" prefHeight="110.0" prefWidth="650.0" style="-fx-background-color: #DC143C; -fx-background-radius: 15;" text="   BORROW A BOOK" textFill="WHITE">
+      <JFXButton fx:id="Bborrowbook" buttonType="RAISED" layoutX="472.0" layoutY="190.0" onAction="#BorrowABookClicked" prefHeight="100.0" prefWidth="400.0" style="-fx-background-color: #DC143C; -fx-background-radius: 15;" text="Borrow a book" textAlignment="RIGHT" textFill="WHITE">
          <font>
             <Font name="System Bold" size="20.0" />
          </font>
       </JFXButton>
-      <JFXButton fx:id="Baboutdev" buttonType="RAISED" layoutX="36.0" layoutY="693.0" onAction="#AboutDevelopersClicked" prefHeight="110.0" prefWidth="650.0" style="-fx-background-color: #DC143C; -fx-background-radius: 15;" text="     ABOUT DEVELOPERS" textFill="WHITE">
+      <JFXButton fx:id="Baboutdev" buttonType="RAISED" layoutX="472.0" layoutY="313.0" onAction="#AboutDevelopersClicked" prefHeight="100.0" prefWidth="400.0" style="-fx-background-color: #DC143C; -fx-background-radius: 15;" text="About Developers" textAlignment="CENTER" textFill="WHITE">
          <font>
             <Font name="System Bold" size="20.0" />
          </font>
       </JFXButton>
-      <ImageView fitHeight="79.0" fitWidth="72.0" layoutX="196.0" layoutY="333.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../Images/book_1.png" />
-         </image>
-      </ImageView>
-      <ImageView fitHeight="72.0" fitWidth="73.0" layoutX="196.0" layoutY="585.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../Images/bookshelf.png" />
-         </image>
-      </ImageView>
-      <ImageView fitHeight="72.0" fitWidth="86.0" layoutX="189.0" layoutY="207.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../Images/search.png" />
-         </image>
-      </ImageView>
-      <ImageView fitHeight="60.0" fitWidth="57.0" layoutX="204.0" layoutY="720.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../Images/reading-glasses.png" />
-         </image>
-      </ImageView>
-      <ImageView fitHeight="128.0" fitWidth="272.0" layoutX="87.0" layoutY="40.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../Images/AMA-Logo-removebg-preview.png" />
-         </image>
-      </ImageView>
-      <JFXButton fx:id="Bremovebook" buttonType="RAISED" layoutX="36.0" layoutY="441.0" onAction="#BremoveBookClicked" prefHeight="110.0" prefWidth="650.0" style="-fx-background-color: #DC143C; -fx-background-radius: 15;" text="   REMOVE A BOOK" textFill="WHITE">
+      <JFXButton fx:id="Bremovebook" buttonType="RAISED" layoutX="50.0" layoutY="431.0" onAction="#BremoveBookClicked" prefHeight="100.0" prefWidth="400.0" style="-fx-background-color: #DC143C; -fx-background-radius: 15;" text="Remove a book" textAlignment="CENTER" textFill="WHITE">
          <font>
             <Font name="System Bold" size="20.0" />
          </font>
       </JFXButton>
-      <ImageView fitHeight="57.0" fitWidth="57.0" layoutX="204.0" layoutY="468.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../Images/minus.png" />
-         </image>
-      </ImageView>
-      <JFXButton fx:id="Baboutdev1" buttonType="RAISED" layoutX="36.0" layoutY="817.0" onAction="#LogoutClicked" prefHeight="110.0" prefWidth="650.0" style="-fx-background-color: #DC143C; -fx-background-radius: 15;" text="     LOG OUT" textFill="WHITE">
+      <JFXButton fx:id="Baboutdev1" buttonType="RAISED" layoutX="472.0" layoutY="431.0" onAction="#LogoutClicked" prefHeight="100.0" prefWidth="400.0" style="-fx-background-color: #DC143C; -fx-background-radius: 15;" text="Log out" textFill="WHITE">
          <font>
             <Font name="System Bold" size="20.0" />
          </font>
       </JFXButton>
-      <ImageView fitHeight="60.0" fitWidth="57.0" layoutX="212.0" layoutY="844.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="114.0" fitWidth="122.0" layoutX="660.0" layoutY="46.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../Images/logout_1.png" />
+            <Image url="@../Images/DesignImages/books.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="46.0" fitWidth="48.0" layoutX="117.0" layoutY="217.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/DesignImages/search.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="72.0" fitWidth="70.0" layoutX="105.0" layoutY="329.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/DesignImages/icons8-literature-100.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="67.0" fitWidth="67.0" layoutX="107.0" layoutY="448.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/DesignImages/icons8-remove-100.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="67.0" fitWidth="73.0" layoutX="520.0" layoutY="207.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/DesignImages/icons8-books-100.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="67.0" fitWidth="67.0" layoutX="520.0" layoutY="330.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/DesignImages/icons8-account-100.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="60.0" fitWidth="57.0" layoutX="525.0" layoutY="453.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/DesignImages/icons8-export-100.png" />
          </image>
       </ImageView>
    </children>
