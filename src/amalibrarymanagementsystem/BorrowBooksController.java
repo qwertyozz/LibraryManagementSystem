@@ -32,7 +32,7 @@ public class BorrowBooksController implements Initializable {
     @FXML
     Label Lstatus;
 
-    public class DbConnection{
+    public class DbConnection {
 
         public void Connectivity() throws SQLException {
             try {
