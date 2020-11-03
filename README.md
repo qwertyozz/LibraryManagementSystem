@@ -1,3 +1,5 @@
+[![CodeFactor](https://www.codefactor.io/repository/github/qwertyozz/librarymanagementsystem/badge)](https://www.codefactor.io/repository/github/qwertyozz/librarymanagementsystem)
+
 # LibraryManagementSystem :closed_book:
 - A simple library system that can: search, borrow books, remove books, and add books to the program.
 - This program is made with JavaFx.
