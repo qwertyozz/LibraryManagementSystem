@@ -1,3 +1,4 @@
+# Stats(?) ¯\_(ツ)_/¯
 [![CodeFactor](https://www.codefactor.io/repository/github/qwertyozz/librarymanagementsystem/badge)](https://www.codefactor.io/repository/github/qwertyozz/librarymanagementsystem)
 
 # LibraryManagementSystem :closed_book:
